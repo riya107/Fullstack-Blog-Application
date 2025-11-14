@@ -25,12 +25,12 @@ jwt.secret=your_secret
 ## ▶️ Run the App
 
 ### Backend  
-./mvnw spring-boot:run
+`mvn spring-boot:run`
 
 ### Frontend  
-cd client  
-npm install  
-npm run dev
+`cd client` 
+`npm install`
+`npm run dev`
 
 ## 🔐 Authentication
 POST /api/v1/auth/login  
@@ -58,7 +58,7 @@ POST /tags (auth)
 ## 🏁 Production Build
 
 Backend:  
-./mvnw clean package
+mvn clean package
 
 Frontend:  
 npm run build
