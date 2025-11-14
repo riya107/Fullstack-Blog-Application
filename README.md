@@ -8,13 +8,6 @@ A simple full-stack blogging app built with **Spring Boot**, **React + TypeScrip
 - **Database:** PostgreSQL  
 - **Auth:** JWT  
 
-## 📁 Project Structure
-root/
- ├── client/           # React frontend
- ├── src/main/java/    # Spring Boot backend
- ├── src/main/resources/application.properties
- └── pom.xml
-
 ## ⚙️ Setup
 
 ### 1. Configure Database  
