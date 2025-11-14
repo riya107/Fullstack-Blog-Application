@@ -15,12 +15,12 @@ Create a Postgres database:
 
 CREATE DATABASE blog_app;
 
-Update credentials in application.properties:
+**Update credentials in application.properties:**
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/blog_app
-spring.datasource.username=postgres
-spring.datasource.password=your_password
-jwt.secret=your_secret
+`spring.datasource.url=jdbc:postgresql://localhost:5432/blog_app`\
+`spring.datasource.username=postgres`\
+`spring.datasource.password=your_password`\
+`jwt.secret=your_secret`
 
 ## ▶️ Run the App
 
